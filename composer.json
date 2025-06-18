@@ -1,0 +1,16 @@
+{
+    "name": "hexlet/code",
+    "bin": [
+    "bin/brain-games"
+    ],
+    
+    "description": "hexlet-brain-games",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alexandr",
+            "email": "sgubanov325@gmail.com"
+        }
+    ],
+    "require": {}
+}
