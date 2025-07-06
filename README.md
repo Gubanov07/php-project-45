@@ -3,3 +3,5 @@
 
 Проверака на четность:
 https://asciinema.org/connect/56cde8f7-7345-4d4c-aaeb-bf1150688772
+
+Калькулятор: https://asciinema.org/a/F75VInWTbTkGpWFCkuGj6t6bK
