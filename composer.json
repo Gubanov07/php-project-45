@@ -2,7 +2,9 @@
     "name": "hexlet/code",
     "bin": [
     "bin/brain-games",
-    "bin/brain-even"
+    "bin/brain-even",
+    "bin/brain-calc",
+    "bin/brain-gcd"
     ],
     
     "description": "hexlet-brain-games",
@@ -19,6 +21,7 @@
             "src/Cli.php",
             "src/Games/Even.php",
             "src/Games/Calculator.php",
+            "src/Games/Gcd.php",
             "src/Engine.php"
         ]
     },
