@@ -6,4 +6,6 @@ https://asciinema.org/connect/56cde8f7-7345-4d4c-aaeb-bf1150688772
 
 Калькулятор: https://asciinema.org/a/F75VInWTbTkGpWFCkuGj6t6bK
 
-НОД:https://asciinema.org/a/g6OJmrPiTVi9OVufr96yF1pFA
+НОД: https://asciinema.org/a/g6OJmrPiTVi9OVufr96yF1pFA
+
+Арифметическая прогрессия: https://asciinema.org/a/CS4jpYKtuxkaCLFnHRiE3vT3m
