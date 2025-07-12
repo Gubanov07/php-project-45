@@ -8,7 +8,7 @@ use const Brain\Games\Engine\NUMBER_OF_ROUND;
 
 const RULE_OF_ROUND = "What is the result of the expression?";
 
-function playCalculator(): void 
+function playCalculator(): void
 {
     $questionsAndResults = [];
     for ($i = 1; $i <= NUMBER_OF_ROUND; $i++) {
@@ -18,7 +18,7 @@ function playCalculator(): void
     playGames(RULE_OF_ROUND, $questionsAndResults);
 }
 
-function getRandomMathTasks(): array 
+function getRandomMathTasks(): array
 {
     $num1 = rand(1, 20);
     $num2 = rand(1, 20);
@@ -29,7 +29,7 @@ function getRandomMathTasks(): array
     return [$qusetion, $result];
 }
 
-function calculate(int $num1, int $num2, string $matOperator): int 
+function calculate(int $num1, int $num2, string $matOperator): int
 {
     $result = null;
     switch ($matOperator) {

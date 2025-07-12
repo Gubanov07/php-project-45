@@ -8,7 +8,7 @@ use const Brain\Games\Engine\NUMBER_OF_ROUND;
 
 const RULE_OF_GAME = 'What number is missing in the progression?';
 
-function Progression(): void
+function playProgression(): void
 {
     $questionsAndResults = [];
     for ($i = 1; $i <= NUMBER_OF_ROUND; $i++) {

@@ -19,14 +19,17 @@ function playPrimeNumber(): void
     playGames(RULE_OF_GAME, $questionsAndResults);
 }
 
-function isPrime(int $number): bool 
+function isPrime(int $number): bool
 {
-    if ($number < 2) {
+    if ($number < 2) 
+    {
         return false;
     }
-    for($i = 2; $i <= sqrt($number); $i++) {
-            if ($number % $i == 0) {
-                return false;
+    for($i = 2; $i <= sqrt($number); $i++) 
+    {
+        if ($number % $i == 0) 
+        {
+            return false;
         }
     }
     return true;

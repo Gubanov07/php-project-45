@@ -10,15 +10,15 @@ const RULE_OF_GAME = 'Answer "yes" if the number is even, otherwise answer "no".
 function playParityCheck(): void
 {
     $questionsAndResult = [];
-    for( $i = 0; $i < NUMBER_OF_ROUND; $i++ ) {
+    for ($i = 0; $i < NUMBER_OF_ROUND; $i++) 
+    {
         $question = rand(1, 100);
         isEven($question) ? $result = 'yes' : $result = 'no';
         $questionsAndResult[$question] = $result;
     }
     playGames(RULE_OF_GAME, $questionsAndResult);
 }
-
-function isEven(int $number): bool 
+function isEven(int $number): bool
 {
-    return $number %2 === 0;
+    return $number % 2 === 0;
 }
