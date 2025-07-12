@@ -29,7 +29,7 @@ function getRandomMathTasks(): array
     return [$qusetion, $result];
 }
 
-function calculate(int $num1, int $num2, string $matOperator): int
+function calculate(int $num1, int $num2, string $matOperator): ?int
 {
     $result = null;
     switch ($matOperator) {
