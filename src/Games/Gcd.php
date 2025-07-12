@@ -11,17 +11,17 @@ const RULE_OF_GAME = 'Find the greatest common divisor of given numbers.';
 function playGamesGcd(): void
 {
     $questionsAndResults = [];
-    for ( $i = 0; $i < NUMBER_OF_ROUND; $i++) 
+    for ($i = 0; $i < NUMBER_OF_ROUND; $i++)
     {
         $num1 = rand(1, 100);
         $num2 = rand(1, 100);
         $question = "$num1 $num2";
-        $result = isGCD( $num1, $num2);
+        $result = isGCD($num1, $num2);
         $questionsAndResults[$question] = (string) $result;
     }
     playGames(RULE_OF_GAME, $questionsAndResults);
 }
-function isGCD(int $num1, int $num2): int 
+function isGCD(int $num1, int $num2): int
 {
     while ($num2 != 0) {
         $temp = $num1 % $num2;
