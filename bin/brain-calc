@@ -3,4 +3,4 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-Brain\Games\Games\Calculator\Calculator();;
+Brain\Games\Games\Calculator\playCalculator();

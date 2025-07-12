@@ -8,7 +8,8 @@ use const Brain\Games\Engine\NUMBER_OF_ROUND;
 
 const RULE_OF_GAME = 'Find the greatest common divisor of given numbers.';
 
-function GamesGcd(): void {
+function GamesGcd(): void 
+{
     $questionsAndResults = [];
     for( $i = 0; $i < NUMBER_OF_ROUND; $i++) {
         $num1 = rand(1, 100);
@@ -20,7 +21,8 @@ function GamesGcd(): void {
     playGames(RULE_OF_GAME, $questionsAndResults);
 }
 
-function isGCD(int $num1, int $num2): int {
+function isGCD(int $num1, int $num2): int 
+{
     while ($num2 != 0) {
         $temp = $num1 % $num2;
         $num1 = $num2;

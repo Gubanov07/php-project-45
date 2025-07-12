@@ -3,4 +3,4 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-Brain\Games\Games\Prime\PrimeNumber();
+Brain\Games\Games\Prime\playPrimeNumber();

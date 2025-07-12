@@ -18,6 +18,7 @@ function playParityCheck(): void
     playGames(RULE_OF_GAME, $questionsAndResult);
 }
 
-function isEven(int $number): bool {
+function isEven(int $number): bool 
+{
     return $number %2 === 0;
 }
