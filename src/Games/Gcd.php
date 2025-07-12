@@ -11,8 +11,7 @@ const RULE_OF_GAME = 'Find the greatest common divisor of given numbers.';
 function playGamesGcd(): void
 {
     $questionsAndResults = [];
-    for ($i = 0; $i < NUMBER_OF_ROUND; $i++)
-    {
+    for ($i = 0; $i < NUMBER_OF_ROUND; $i++) {
         $num1 = rand(1, 100);
         $num2 = rand(1, 100);
         $question = "$num1 $num2";
