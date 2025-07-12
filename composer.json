@@ -5,7 +5,8 @@
     "bin/brain-even",
     "bin/brain-calc",
     "bin/brain-gcd",
-    "bin/brain-progression"
+    "bin/brain-progression",
+    "bin/brain-prime"
     ],
     
     "description": "hexlet-brain-games",
@@ -24,6 +25,7 @@
             "src/Games/Calculator.php",
             "src/Games/Gcd.php",
             "src/Games/Progression.php",
+            "src/Games/Prime.php",
             "src/Engine.php"
         ]
     },
