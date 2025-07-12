@@ -9,7 +9,7 @@ const NUMBER_OF_ROUND = 3;
 
 function playGames(string $rulesOfTheGame, array $questionsAndResults): void
 {
-    line('Welcome to the Brain Game!');
+    line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     line($rulesOfTheGame);
