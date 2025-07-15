@@ -2,18 +2,18 @@
 [![Actions Status](https://github.com/Gubanov07/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Gubanov07/php-project-45/actions)
 
 Проверака на четность:
-[![asciicast](https://asciinema.org/connect/56cde8f7-7345-4d4c-aaeb-bf1150688772)]
+[asciicast](https://asciinema.org/a/IoOj7PdOZwo8yjpUi8aGF9kic)
 
 Калькулятор: 
-[![asciicast](https://asciinema.org/a/F75VInWTbTkGpWFCkuGj6t6bK)]
+[asciicast](https://asciinema.org/a/F75VInWTbTkGpWFCkuGj6t6bK)
 
 НОД: https:
-[![asciicast](//asciinema.org/a/g6OJmrPiTVi9OVufr96yF1pFA)]
+[asciicast](https://asciinema.org/a/g6OJmrPiTVi9OVufr96yF1pFA)
 
 Арифметическая прогрессия: 
-[![asciicast](https://asciinema.org/a/CS4jpYKtuxkaCLFnHRiE3vT3m)]
+[asciicast](https://asciinema.org/a/CS4jpYKtuxkaCLFnHRiE3vT3m)
 
 
 "Простое ли число?": 
-[![asciicast](https://asciinema.org/a/AuUJ9XHdjuGP0XvKboCqPozHG)]
+[asciicast](https://asciinema.org/a/AuUJ9XHdjuGP0XvKboCqPozHG)
 
