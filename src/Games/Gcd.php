@@ -15,12 +15,13 @@ function playGamesGcd(): void
         $num1 = rand(1, 100);
         $num2 = rand(1, 100);
         $question = "$num1 $num2";
-        $result = isGCD($num1, $num2);
+        $result = findGCD($num1, $num2);
         $questionsAndResults[$question] = (string) $result;
     }
     playGames(RULE_OF_GAME, $questionsAndResults);
 }
-function isGCD(int $num1, int $num2): int
+
+function findGCD(int $num1, int $num2): int
 {
     while ($num2 !== 0) {
         $temp = $num1 % $num2;

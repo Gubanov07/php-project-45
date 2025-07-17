@@ -7,6 +7,7 @@ use function Brain\Games\Engine\playGames;
 use const Brain\Games\Engine\NUMBER_OF_ROUND;
 
 const RULE_OF_GAME = 'Answer "yes" if the number is even, otherwise answer "no".';
+
 function playParityCheck(): void
 {
     $questionsAndResult = [];
@@ -17,6 +18,7 @@ function playParityCheck(): void
     }
     playGames(RULE_OF_GAME, $questionsAndResult);
 }
+
 function isEven(int $number): bool
 {
     return $number % 2 === 0;
